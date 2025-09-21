@@ -1,0 +1,85 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of these is NOT a JavaScript framework/library?",
+      "options": ["React", "Angular", "Django", "Vue.js"],
+      "correctAnswer": "Django"
+    },
+    {
+      "id": 2,
+      "question": "What does CSS stand for?",
+      "options": [
+        "Computer Style Sheets",
+        "Creative Style Sheets",
+        "Cascading Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctAnswer": "Cascading Style Sheets"
+    },
+    {
+      "id": 3,
+      "question": "Which HTML tag is used to embed JavaScript code?",
+      "options": ["<script>", "<js>", "<javascript>", "<code>"],
+      "correctAnswer": "<script>"
+    },
+    {
+      "id": 4,
+      "question": "What is the output of `console.log(typeof null)` in JavaScript?",
+      "options": ["null", "undefined", "object", "string"],
+      "correctAnswer": "object"
+    },
+    {
+      "id": 5,
+      "question": "Which method is used to add an element to the end of an array in JavaScript?",
+      "options": ["push()", "pop()", "shift()", "unshift()"],
+      "correctAnswer": "push()"
+    },
+    {
+      "id": 6,
+      "question": "What does the 'DOM' stand for in web development?",
+      "options": [
+        "Document Object Model",
+        "Data Object Management",
+        "Digital Output Module",
+        "Dynamic Object Method"
+      ],
+      "correctAnswer": "Document Object Model"
+    },
+    {
+      "id": 7,
+      "question": "Which of these is a valid React hook?",
+      "options": ["useState()", "useEffect()", "useContext()", "All of the above"],
+      "correctAnswer": "All of the above"
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of the `npm install` command?",
+      "options": [
+        "To uninstall a package",
+        "To install project dependencies",
+        "To update Node.js",
+        "To start a development server"
+      ],
+      "correctAnswer": "To install project dependencies"
+    },
+    {
+      "id": 9,
+      "question": "Which operator is used for strict equality in JavaScript?",
+      "options": ["==", "===", "=", "!=="],
+      "correctAnswer": "==="
+    },
+    {
+      "id": 10,
+      "question": "What is the correct way to create a component in React?",
+      "options": [
+        "function MyComponent() { return <div>Hello</div>; }",
+        "class MyComponent extends React.Component { render() { return <div>Hello</div>; } }",
+        "Both A and B",
+        "None of the above"
+      ],
+      "correctAnswer": "Both A and B"
+    }
+  ]
+}
+

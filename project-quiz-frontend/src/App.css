@@ -1,0 +1,133 @@
+
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    
+    color: rgba(255, 255, 255, 0.87);
+}
+body{
+    background-color: 	#252526;
+}
+button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    
+    color: #007acc;
+    border-radius: 100px;
+    border: solid;
+    background-color:#252526;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    transition-duration: .5s;
+}
+
+ol{
+    list-style-type: lower-alpha;
+    border: solid #007acc;
+    transition-duration: .5s;
+    background-color: #007acc;
+}
+ol:hover{
+    background-color: black(152, 152, 152);
+    border-radius: 30px;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+li{
+    color: #007acc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+/* Landing.jsx */
+.landing-page{
+    height: 100vh;
+    width: 100vw;
+    color: #007acc;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+/* quiz.jsx */
+.quiz-page{
+    height: 80vh;
+    width: 100vw;
+    color: #007acc;
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    height: 80vh;
+    width: 5vw;
+}
+
+.middle{
+    height: 80vh;
+    width: 87vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right{
+    width: 5vw;
+    height: 80vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right button{
+    margin-top: 20px;
+}
+
+.submit{
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+}
+
+
+.result{
+    color: rgb(255, 255, 255);
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px 0px black;
+    margin-bottom: 50px;
+}
+.result-page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
