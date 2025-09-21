@@ -131,3 +131,30 @@ li{
     align-items: center;
     flex-direction: column;
 }
+
+.user-info{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    color: white;
+    font-size: 25px;
+}
+.user-name{
+    
+    padding: 6px 12px;
+    background: rgb(31, 32, 35);
+    border: 1px solid rgb(60, 63, 68);
+    border-radius: 4px;
+    font-size: 15px;
+    color: rgb(247, 248, 248);
+    height: 30px;
+    appearance: none;
+    margin-left: 5px;
+    transition: border 0.15s ease 0s;
+    :focus{
+        outline: none;
+        box-shadow: none;
+        border-color: rgb(100, 153, 255);
+    }
+                
+}
